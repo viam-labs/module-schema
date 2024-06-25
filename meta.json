@@ -1,0 +1,13 @@
+{
+    "$schema": "module.schema.json",
+    "visibility": "private",
+    "module_id": "module",
+    "models": [{"api": "rdk:component:sensor", "model": ""}],
+    "build": {
+        "build": "make module.tar.gz",
+        "arch": [
+            "linux/amd64",
+            "linux/arm64"
+        ]
+    }
+}
